@@ -1,0 +1,31 @@
+{
+  "name": "@myenai/plugin-server-express",
+  "version": "1.0.0",
+  "description": "Myenai express server plugin",
+  "main": "myenai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myenai/plugin-server-express.git"
+  },
+  "keywords": [
+    "myenai",
+    "express"
+  ],
+  "author": "Jesse Weed <code@jesseweed.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myenai/plugin-server-express/issues"
+  },
+  "homepage": "https://github.com/myenai/plugin-server-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "logdown": "^3.3.1",
+    "node-notifier": "^7.0.1",
+    "node-sass": "^4.14.1",
+    "node-sass-middleware": "^0.11.0",
+    "pug": "^3.0.0"
+  }
+}
